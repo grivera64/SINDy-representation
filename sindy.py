@@ -345,7 +345,7 @@ plot_3d_model_states(X_test, X_test_pred, FEATURE_NAMES)
 # where the change of state (derivative) from the state $x_0(0)$ to any new state $x_0(1)$ is:
 # 
 # $$
-# \hat{x}_i = \sum _ {j = 0} ^ {p} {\xi _ i \cdot f_j(x_i)}
+# \hat{x}_i = \sum _ {j = 0} ^ {p} {\xi _ i \cdot f_j(\dots)}
 # $$
 # 
 # Which means we can construct all states $x(t _ k) = \begin{bmatrix}x_0(t _ k) & x_1(t _ k) & \dots & x_n(t _ k) \end{bmatrix}$ at time $t _ k = t_0 + k \Delta t$ for positive $k$ using the following equation:
