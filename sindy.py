@@ -155,7 +155,7 @@ model.fit(X_train, t=dt, feature_names=FEATURE_NAMES)
 # The function that we multiply the coefficients by can be found in the Feature Library. Once found, the differential equation is:
 # 
 # $$
-# \hat{x}_i = \sum _ {j = 0} ^ {p} {\xi _ i \cdot f_j(x_i)}
+# \hat{x}_i = \sum _ {j = 0} ^ {p} {\xi _ i \cdot f_j(\dots)}
 # $$
 
 # %%
