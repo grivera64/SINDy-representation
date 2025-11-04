@@ -309,3 +309,9 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+
+### Custom
+
+# Pickled Data Files
+*.joblib
